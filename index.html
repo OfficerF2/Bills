@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bills</title>
+    <title>Информация о счетах и транзакциях</title>
+    <link rel="stylesheet" href="info.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="billing-info">
+            <h2>Информация о выставлении счетов</h2>
+            <div class="billing-card">
+                <div class="info">
+                    <h3>Оливер Лиам</h3>
+                    <p><strong>Название компании:</strong> Викинг Буррито</p>
+                    <p><strong>Email:</strong> oliver@burrito.com</p>
+                    <p><strong>Номер НДС:</strong> FRB1235476</p>
+                </div>
+                <div class="actions">
+                    <button class="edit"><img src="Edit.svg" alt="Редактировать"></button>
+                    <button class="delete"><img src="Delete.svg" alt="Удалить"></button>
+                </div>
+            </div>
+            <div class="billing-card">
+                <div class="info">
+                    <h3>Оливер Лиам</h3>
+                    <p><strong>Название компании:</strong> Викинг Буррито</p>
+                    <p><strong>Email:</strong> oliver@burrito.com</p>
+                    <p><strong>Номер НДС:</strong> FRB1235476</p>
+                </div>
+                <div class="actions">
+                    <button class="edit"><img src="Edit.svg" alt="Редактировать"></button>
+                    <button class="delete"><img src="Delete.svg" alt="Удалить"></button>
+                </div>
+            </div>
+            <div class="billing-card">
+                <div class="info">
+                    <h3>Оливер Лиам</h3>
+                    <p><strong>Название компании:</strong> Викинг Буррито</p>
+                    <p><strong>Email:</strong> oliver@burrito.com</p>
+                    <p><strong>Номер НДС:</strong> FRB1235476</p>
+                </div>
+                <div class="actions">
+                    <button class="edit"><img src="images/Edit.svg" alt="Редактировать"></button>
+                    <button class="delete"><img src="images/Delete.svg" alt="Удалить"></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="transactions">
+            <h2>Ваши транзакции</h2>
+            <ul>
+                <li class="negative">
+                    <img src="images/RedDown.svg" alt="Расход" class="transaction-icon">
+                    <span class="transaction-text">Яндекс -2500₽ (27 марта 2020, 12:30)</span>
+                </li>
+                <li class="positive">
+                    <img src="images/GreenUP.svg" alt="Доход" class="transaction-icon">
+                    <span class="transaction-text">Газпром +2500₽ (27 марта 2020, 12:30)</span>
+                </li>
+                <li class="positive">
+                    <img src="images/GreenUP.svg" alt="Доход" class="transaction-icon">
+                    <span class="transaction-text">Страйп +800₽ (26 марта 2020, 13:45)</span>
+                </li>
+                <li class="positive">
+                    <img src="images/GreenUP.svg" alt="Доход" class="transaction-icon">
+                    <span class="transaction-text">ВК +1700₽ (26 марта 2020, 12:30)</span>
+                </li>
+                <li class="pending">
+                    <img src="images/Waiting.svg" alt="Ожидание" class="transaction-icon">
+                    <span class="transaction-text">Кион В ожидании (26 марта 2020, 05:00)</span>
+                </li>
+                <li class="negative">
+                    <img src="images/RedDown.svg" alt="Расход" class="transaction-icon">
+                    <span class="transaction-text">Тинькофф -987₽ (25 марта 2020, 16:30)</span>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
