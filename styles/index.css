@@ -3,6 +3,7 @@
     font-weight: 600;
     line-height: 1.1rem;
 }
+
 aside{
     max-width: 20%;
     background-color: white;
@@ -75,4 +76,9 @@ p{
 .help{
     margin-top: 2rem;
     text-align: center;
+}
+
+
+.card{
+    background-image: url();
 }
