@@ -4,11 +4,15 @@ body {
     margin: 0;
     padding: 20px;
 }
-.container {
+.Billings {
     display: flex;
-    justify-content: space-between;
-    max-width: 900px;
+    gap:24px;
+    min-height: 538px;
+    min-width: 900px;
     margin: auto;
+}
+.Billings .transactions{
+    max-width: 660px;
 }
 .billing-info, .transactions {
     background: white;
@@ -20,18 +24,20 @@ body {
 .billing-card {
     border: 1px solid #ddd;
     padding: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 5px;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
+    background-color: #F8F9FA;
+    height: 20%;
 }
 .billing-card .info {
     flex-grow: 1;
 }
 .billing-card .actions {
     display: flex;
-    gap: 10px;
+    gap: 0px;
 }
 .delete, .edit {
     background: none;
@@ -39,8 +45,8 @@ body {
     cursor: pointer;
 }
 .delete img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 .edit img {
     width: 16px;
@@ -57,24 +63,58 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 16px;
 }
 .transaction-text {
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.transaction-text .title {
+    font-weight: bold;
+}
+.transaction-text .date {
+    font-size: 14px;
+    color: #A0AEC0;
+}
+.transaction-text .amount {
+    font-weight: bold;
+    text-align: right;
 }
 .positive {
-    background-color: #d4edda;
-    color: #155724;
+    background-color: white;
 }
 .negative {
-    background-color: #f8d7da;
-    color: #721c24;
+    background-color: white;
 }
 .pending {
-    background-color: #fff3cd;
-    color: #856404;
+    background-color: white;
+}
+.positive .amount{
+    color: #48BB78;
+}
+.negative .amount{
+    color: #a50e0e;
+}
+.pending .amount{
+    color: #2D3748;
 }
 .transaction-icon {
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
+}
+.date-range {
+    font-size: 14px;
+    color: #A0AEC0;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.info-hum{
+    color: #A0AEC0;
+}
+.name{color:#718096;}
+.date-range-icon{
+    width: 15px;
+    height: 15px;
 }
