@@ -1,22 +1,19 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
 header {
     background-color: #1976d2;
     color: white;
 }
 .h1 {
-    font-family: "PT Mono", serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-style: normal;  
+    font-size: 14px;
 }
 .breadcrumb {
     margin-top: 25px;
-    font-family: "Liter", serif;
+    font-family: Helvetica;
     font-weight: 400;
     font-style: normal;
+    font-size: 12px;
 }
 .top-line {
     padding: 5px 15px;
@@ -28,10 +25,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-}
-
-h1 {
-    margin: 0;
 }
 
 .right-section {
