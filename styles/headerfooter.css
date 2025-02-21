@@ -3,12 +3,14 @@
     color: white;
     padding: 44px 0px 37.5px 0px;
 }
+
 .header-title {
     font-weight: 600;
     font-style: normal;  
     font-size: 14px;
     padding-inline: 15px;
 }
+
 .breadcrumb {
     font-weight: 400;
     font-style: normal;
@@ -16,6 +18,7 @@
     margin-bottom: 20px;
     padding-inline: 15px;
 }
+
 .top-line {
     font-size: 14px;
 }
@@ -66,6 +69,20 @@
     cursor: pointer;
     margin-right: 20px;
 }
+
 .notification {
     position: relative;
+}
+
+.footer_text1 {
+    color: darkgrey;
+    text-align: right;
+    white-space: nowrap;
+    word-spacing: 25px;
+    margin-right: 35px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 12px;
+    justify-content: end;
+    padding: 20px 0px 20px 0px ;
 }
