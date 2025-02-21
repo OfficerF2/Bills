@@ -1,6 +1,6 @@
 aside{
     max-width: 20%;
-    max-height: 60%;
+    max-height: fit-content;
     background-color: white;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
@@ -35,7 +35,7 @@ main{
 }
 
 .line-name{
-    margin-inline: 1rem;
+    margin-inline: 0.5rem;
     font-size: 0.75rem;
     color:#A0AEC0;
 }
@@ -43,7 +43,7 @@ main{
 .line:hover{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    padding-inline: 0.5rem;
+    padding-inline: 0.2rem;
 }
 
 .line:hover .line-name{
@@ -144,14 +144,18 @@ hr{
     background-repeat: no-repeat;
     width: max-content;
     color: white;
-    padding: 2rem;
+    
     border-radius: 1.5rem;
     font-weight: 600;
+
+}
+.data-on-card{
+    padding: 2rem;
 }
 
 .card-and-balance{
-    
-    grid-template-rows: 47% 53%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     gap: 1.5rem;
 }
 
@@ -164,12 +168,12 @@ hr{
     font-size: 0.6rem;
     font-weight: 400;
     color: white;
-    margin-top: 0.8rem;
+    padding-top: 0.8rem;
 }
 
 .card-number{
-    margin-top: 5rem;
-    margin-right: 11rem;
+    padding-top: 5rem;
+    padding-right: 9rem;
     font-size: 1.5rem;
 }
 
@@ -207,6 +211,6 @@ hr{
 
 .card-and-blocks{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap:1.5rem
 }
