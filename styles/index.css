@@ -197,3 +197,8 @@ hr{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
 }
+
+.wrap{
+    padding-right: calc(50% - 960px);
+    padding-left: calc(50% - 960px);
+}
