@@ -7,7 +7,6 @@
     max-width: 1584px;
     margin: auto;
 }
-
 .information .transaction{
     width: 638px;
     height: 538px;
@@ -129,7 +128,6 @@ li {
 .info-hum{
     color: #A0AEC0;
 }
-
 .name{
     color:#718096;
     font-weight: bold;
@@ -139,16 +137,20 @@ li {
     width: 15px;
     height: 15px;
 }
-
 .text-razdel{
     font-weight: bold;
     color: #A0AEC0;
 }
-
 .billing-info .h2-inf{
     margin-bottom: 10px;
     font-weight: bold;
 }
 .transaction .h2-tra{
     font-weight: bold;
+}
+.delete img:hover{
+    transform: scale(1.1);
+}
+.edit img:hover{
+    transform: scale(1.1);
 }
