@@ -1,0 +1,88 @@
+.header {
+    background-color: #1976d2;
+    color: white;
+    padding: 44px 0px 37.5px 0px;
+}
+
+.header-title {
+    font-weight: 600;
+    font-style: normal;  
+    font-size: 14px;
+    padding-inline: 15px;
+}
+
+.breadcrumb {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding-inline: 15px;
+}
+
+.top-line {
+    font-size: 14px;
+}
+
+.bottom-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.search-bar input {
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    border: none;
+    cursor: pointer;
+}
+
+.login-bat {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.notification {
+    position: relative;
+}
+
+.footer_text {
+    color: darkgrey;
+    text-align: right;
+    white-space: nowrap;
+    word-spacing: 25px;
+    margin-right: 35px;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 12px;
+    justify-content: end;
+    padding: 20px 0px 20px 0px ;
+}
