@@ -154,3 +154,9 @@ li {
 .transaction .h2-tra{
     font-weight: bold;
 }
+.delete img:hover{
+    transform: scale(1.1);
+}
+.edit img:hover{
+    transform: scale(1.1);
+}
