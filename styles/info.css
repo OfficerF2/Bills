@@ -1,0 +1,156 @@
+.information {
+    display: flex;
+    gap: 24px;
+    width: 1584px;
+    height: 538px;
+    max-height: 538px;
+    max-width: 1584px;
+    margin: auto;
+}
+.information .transaction{
+    width: 638px;
+    height: 538px;
+    min-width: 638px;
+}
+
+.billing-info, .transaction {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+.billing-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F9FA;
+    height: 132.5px;
+    width: 855px;
+}
+.billing-info{
+    width: 900px;
+    height: 538px;
+}
+.billing-card .info {
+    flex-grow: 1;
+}
+.billing-card .info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.billing-card .actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 65px;
+}
+.delete, .edit {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    color: #a50e0e;
+}
+.delete img{
+    width: 60px;
+    height: 60px;
+}
+.edit img {
+    width: 16px;
+    height: 16px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.transaction-text {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.transaction-text .title {
+    font-weight: bold;
+}
+.transaction-text .date {
+    font-size: 14px;
+    color: #A0AEC0;
+}
+.transaction-text .amount {
+    font-weight: bold;
+    text-align: right;
+}
+.positive {
+    background-color: white;
+}
+.negative {
+    background-color: white;
+}
+.pending {
+    background-color: white;
+}
+.positive .amount{
+    color: #48BB78;
+}
+.negative .amount{
+    color: #a50e0e;
+}
+.pending .amount{
+    color: #2D3748;
+}
+.transaction-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.date-range {
+    font-size: 14px;
+    color: #A0AEC0;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.info-hum{
+    color: #A0AEC0;
+}
+.name{
+    color:#718096;
+    font-weight: bold;
+    margin-bottom: 6.5px;
+}
+.date-range-icon{
+    width: 15px;
+    height: 15px;
+}
+.text-razdel{
+    font-weight: bold;
+    color: #A0AEC0;
+}
+.billing-info .h2-inf{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.transaction .h2-tra{
+    font-weight: bold;
+}
+.delete img:hover{
+    transform: scale(1.1);
+}
+.edit img:hover{
+    transform: scale(1.1);
+}
